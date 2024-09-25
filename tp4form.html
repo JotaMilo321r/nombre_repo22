@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>th motos</title>
+</head>
+<body>
+    <fieldset>
+            <legend>Formulario para Rafa</legend>
+            <label for="nombre" >Ingrese su nombre</label><br>
+            <input type="text" disabled><br>
+            <label for="apellido">Ingrese su apellido</label><br>
+            <input type="text"><br>
+            <label for="dni">Ingrese su DNI</label><br>
+            <input type="text"><br>
+            <label for="fotodni">Ingrese la foto de su dni de ambos lados:</label><br>
+            <input type="file" required><br>
+            <input type="file" required><br>
+            <label for="apellido">Ingrese su numero de telefono</label><br>
+            <input type="text"><br>
+            <label for="contraseña">Crea una contraseña</label><br>
+            <input type="text"><br>
+            <label for="recordar">recordar contraseña</label><br>
+            <input type="checkbox" checked><br>
+            <label for="aclaracion">¿Desea aclarar algo?</label><br>
+            <textarea name="aclar" id="texto">Aclaraciones</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Tu nuevo 0km</legend>
+            <h2>¿Que modelo desea adquirir?</h2>
+            <select name="modelo" id="auto">
+            <option value="">Modelo runrun</option>
+            <option value="1">Hyundai</option>
+            <option value="2">Suzuki</option>
+            <option value="3">Honda</option>
+            <option value="4">Toyota</option>
+            </select>
+            <h3>Opciones de cuotas</h3>
+            <input type="radio" id="cuota1" name="cuota.1">
+            <label for="cuota" id="cuota1">12 cuotas</label><br>
+
+            <input type="radio" id="cuota2" name="cuota.1">
+            <label for="cuota" id="cuota2">18 cuotas</label><br>
+
+            <input type="radio" id="cuota3" name="cuota.1">
+            <label for="cuota" id="cuota3">24 cuotas</label><br>
+            <input type="submit" value="Enviar solicitud"><input type="reset" value="Eliminar datos">
+    </fieldset>
+</body>
+</html>
